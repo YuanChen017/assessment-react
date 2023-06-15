@@ -18,10 +18,35 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+
+}
+h1 {
+  font-size: 35px;
+  text-align: center;
+}
+.showcase{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.character{
+  margin: 20px;
+  border: 1px solid black;
+  padding: 2px;
+  text-align: center;
+}
+
+.pagination{
+  display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-bottom: 40px;
+}
+.pagination button {
+  margin-left: 20px;
+  background-color: lightgrey;
+  width: 20px;
+  height: fit-content;
+  border: 1px solid black;
 }
