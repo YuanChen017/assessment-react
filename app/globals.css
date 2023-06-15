@@ -46,7 +46,7 @@ h1 {
 .pagination button {
   margin-left: 20px;
   background-color: lightgrey;
-  width: 20px;
+  width: fit-content;
   height: fit-content;
   border: 1px solid black;
 }
